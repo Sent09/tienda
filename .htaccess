@@ -1,0 +1,5 @@
+Options +Indexes 
+IndexOptions -FancyIndexing
+
+RewriteEngine on
+RewriteRule ^carro/* controlador.php
